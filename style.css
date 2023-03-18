@@ -291,13 +291,10 @@
   background-image: url(img/summit\ 2015.webp);
 }
 
-.thepartners {
-  background-color: rgb(207, 28, 28);
-}
 
 .partnertxt {
   font-weight: 500;
-  color: #ca1d1d;
+  color: red;
 }
 
 .ende {
@@ -399,14 +396,16 @@
   }
 
   .reserved {
-    background-color: black;
+    background-color: white;
+    color: black;
     align-items: center;
     padding: 80px;
   }
 
   .footertxt {
-    color: white;
+    color: black;
   }
+
 }
 
 @media (max-width: 768px) {
