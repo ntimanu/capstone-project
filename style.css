@@ -291,7 +291,6 @@
   background-image: url(img/summit\ 2015.webp);
 }
 
-
 .partnertxt {
   font-weight: 500;
   color: red;
@@ -405,7 +404,6 @@
   .footertxt {
     color: black;
   }
-
 }
 
 @media (max-width: 768px) {
