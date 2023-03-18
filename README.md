@@ -105,7 +105,7 @@ If you like this project feel free to share with your friends.
 ## 🙏 Acknowledgments
 
 I would like to thank Microverse for this amazing project.
-and to thank Caleb.
+and thanks to Caleb.
 
 ## 📝 License
 
