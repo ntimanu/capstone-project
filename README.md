@@ -35,7 +35,7 @@ Boostrap 5
 
 ## 🚀 Live Demo
 
-- [https://ntimanu.github.io/capstone-project/]
+- [Live Demo](https://ntimanu.github.io/capstone-project/)
 
 ## 💻 Getting Started
 
@@ -104,7 +104,7 @@ If you like this project feel free to share with your friends.
 
 ## 🙏 Acknowledgments
 
-I would like to thank Microverse for this amazing project.
+I want to thank Cindy Shin the author of the original design [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015], who provided the behance design of the template
 and thanks to Caleb.
 
 ## 📝 License
