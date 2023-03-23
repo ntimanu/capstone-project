@@ -74,19 +74,19 @@ const chessStyle = {
   width: '65px',
   zIndex: '1',
   top: '-15px',
-  left: '11px',
+  left: '31px',
 };
 
 const speakersImageStyle = {
   width: '120px',
-  marginLeft: '20px',
+  marginLeft: '40px',
   zIndex: '1',
   position: 'relative',
 };
 
 function gridify() {
   if (window.innerWidth >= 768) {
-    mainSpeakers.style.gridTemplateColumns = '3fr 3fr';
+    mainSpeakers.style.gridTemplateColumns = '1fr 1fr';
   } else if (window.innerWidth <= 768) {
     mainSpeakers.style.gridTemplateColumns = '1fr';
   }
@@ -154,7 +154,7 @@ seemore.addEventListener('click', () => {
 });
 
 if (window.innerWidth >= 768) {
-  window.onload = main(4);
+  window.onload = main(6);
   mainSpeakers.style.gridTemplateColumns = '1fr 1fr';
 } else {
   window.onload = main(2);
