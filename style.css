@@ -14,7 +14,10 @@
 }
 
 .nav-item a:hover {
-  color: white;
+  color: black;
+  transform: scale(1.4);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .bar {
@@ -205,20 +208,6 @@
   opacity: 0.7;
 }
 
-.year2013 {
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 200px;
-  color: white;
-}
-
-.year2013txt {
-  font-weight: 200;
-  font-size: 25px;
-  line-height: 200px;
-  color: white;
-}
-
 .image2 {
   background-image: url("img/summit202020.jpg");
   display: flex;
@@ -228,26 +217,11 @@
   z-index: -1;
 }
 
-.year2011 {
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 200px;
-  color: white;
-}
-
-.year2011txt {
-  font-weight: 200;
-  font-size: 25px;
-  line-height: 200px;
-  color: white;
-}
-
 .companies img {
   width: 100px;
 }
 
 .cardsumittxt {
-  /* display: flex; */
   text-align: center;
   font-weight: 600;
   font-size: 22px;
@@ -329,11 +303,26 @@
   text-align: center;
 }
 
+.pastyear {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.pastyeartxt {
+  color: white;
+}
+
 .partners {
   display: none;
 }
 
 .reserved {
+  display: none;
+}
+
+.card {
   display: none;
 }
 
@@ -344,6 +333,21 @@
 
   .intro {
     margin-left: 80px;
+  }
+
+  .nav-banner {
+    height: 26px;
+    margin-left: -60px;
+    background: #3e3e3e;
+  }
+
+  .nav-banner ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 190px 0 0;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.919);
   }
 
   .navbar {
@@ -397,6 +401,14 @@
     padding: 20px;
   }
 
+  .join2 {
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    color: white;
+    align-items: center;
+  }
+
   .block:hover {
     transform: scale(1.1);
   }
@@ -409,6 +421,10 @@
   .card {
     border-radius: 0;
     z-index: -1;
+  }
+
+  .row img {
+    width: 120px;
   }
 
   .reserved {
@@ -439,6 +455,10 @@
     display: block;
     cursor: pointer;
     z-index: 100;
+  }
+
+  .nav-banner {
+    display: none;
   }
 
   .hamburger.active .bar:nth-child(2) {
