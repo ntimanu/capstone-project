@@ -219,6 +219,7 @@
 
 .companies img {
   width: 100px;
+  
 }
 
 .cardsumittxt {
@@ -352,10 +353,12 @@
 
   .navbar {
     min-height: 70px;
+    margin-left: -60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
+    padding: 0;
+    background-color: white;
   }
 
   .nav-menu {
@@ -365,11 +368,15 @@
     gap: 60px;
     margin-right: 180px;
   }
+  .nav-menu li a:hover {
+    color: #F07F7E;
+    ;
+  }
 
   .nav-branding {
     font-size: 2rem;
+    margin-left: 60px;
     display: block;
-    margin-left: 20px;
   }
 
   .nav-link {
@@ -409,6 +416,9 @@
     align-items: center;
   }
 
+  .block {
+    transform: scale(1.1);
+  }
   .block:hover {
     transform: scale(1.1);
   }
@@ -417,6 +427,12 @@
   .gradPhotoes {
     width: 400px;
   }
+/*   
+  .main-speakers {
+    display: grid;
+    align-content: center;
+    width: 60%;
+  } */
 
   .card {
     border-radius: 0;
@@ -431,14 +447,14 @@
     background-color: white;
     color: black;
     align-items: center;
-    padding: 80px;
+    
   }
 
   .reserved2 {
     background-color: black;
     color: white;
     align-items: center;
-    padding: 80px;
+    
   }
 
   .footertxt {
