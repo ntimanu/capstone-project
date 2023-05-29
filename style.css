@@ -219,7 +219,6 @@
 
 .companies img {
   width: 100px;
-  
 }
 
 .cardsumittxt {
@@ -368,9 +367,9 @@
     gap: 60px;
     margin-right: 180px;
   }
+
   .nav-menu li a:hover {
-    color: #F07F7E;
-    ;
+    color: #f07f7e;
   }
 
   .nav-branding {
@@ -419,6 +418,7 @@
   .block {
     transform: scale(1.1);
   }
+
   .block:hover {
     transform: scale(1.1);
   }
@@ -427,7 +427,8 @@
   .gradPhotoes {
     width: 400px;
   }
-/*   
+
+  /*
   .main-speakers {
     display: grid;
     align-content: center;
@@ -447,14 +448,12 @@
     background-color: white;
     color: black;
     align-items: center;
-    
   }
 
   .reserved2 {
     background-color: black;
     color: white;
     align-items: center;
-    
   }
 
   .footertxt {
