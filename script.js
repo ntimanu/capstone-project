@@ -72,12 +72,13 @@ const chessStyle = {
   source: 'icons/checkers.svg',
   width: '65px',
   zIndex: '1',
-  top: '-15px',
+  top: '-10px',
   left: '31px',
 };
 
 const speakersImageStyle = {
   width: '120px',
+  height: '120px',
   marginLeft: '40px',
   zIndex: '1',
   position: 'relative',
