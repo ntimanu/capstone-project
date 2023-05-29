@@ -67,7 +67,6 @@ const descriptionStyle = {
   fontSize: '0.8rem',
 };
 
-
 const chessStyle = {
   position: 'absolute',
   source: 'icons/checkers.svg',
