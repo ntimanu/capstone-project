@@ -36,7 +36,7 @@ Boostrap 5
 ## 🚀 Live Demo
 
 - [Live Demo](https://ntimanu.github.io/capstone-project/)
-- [Video presentation]([https://clipchamp.com/watch/jBLl9nMJ4DG])
+- [Video presentation](https://clipchamp.com/watch/jBLl9nMJ4DG)
 
 ## 💻 Getting Started
 
