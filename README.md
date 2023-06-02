@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#Live-Demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -36,7 +37,7 @@ Boostrap 5
 ## 🚀 Live Demo
 
 - [Live Demo](https://ntimanu.github.io/capstone-project/)
-- [Video presentation][https://clipchamp.com/watch/jBLl9nMJ4DG](https://clipchamp.com/watch/jBLl9nMJ4DG))
+- [Video presentation](https://clipchamp.com/watch/jBLl9nMJ4DG)
 
 ## 💻 Getting Started
 
